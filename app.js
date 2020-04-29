@@ -66,6 +66,9 @@ function colorizeSliders(color, hue, brightness, saturation) {
   hue.style.backgroundImage = `linear-gradient(to right, rgb(204,7,75),rgb(204,204,75),rgb(75,204,75),rgb(75,204,204),rgb(75,75,204),rgb(204,75,204))`;
 }
 function hslControls(e) {
-  const index = e.target.getAttribute("data-");
+  const index =
+    e.target.getAttribute("data-bright") ||
+    e.target.getAttribute("data-saturation ") ||
+    e.target.getAttribute("data-bhue");
 }
 randomColors();
