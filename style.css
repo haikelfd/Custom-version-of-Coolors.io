@@ -104,14 +104,5 @@ svg {
   border: none;
   background: none;
   cursor: pointer;
-  margin: 2rem 0rem;
-}
-/* Slider STUFF */
-input[type="range"] {
-  -webkit-appearance: none;
-  margin: 1rem 0rem;
-  width: 100%;
-  position: rlative;
-  border-radius: 1rem;
-  cursor: pointer;
+  margin: 2rem 0rem; 
 }
